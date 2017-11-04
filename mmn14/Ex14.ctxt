@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Ex14
+comment0.text=\r\n\ Maman\ 14\ -\ 4\ questions.\r\n\r\n\ @author\ Topaz\ Braverman\r\n\ @version\ 13.6.17\ v-1.0\r\n
+comment1.params=mat
+comment1.target=int\ isSink(int[][])
+comment1.text=\r\n\ Q1\ -\ \r\n\ \r\n\ "sink"\ \:\ The\ values\ of\ the\ line[k]\ are\ all\ 0\r\n\ \ \ \ \ \ \ \ \ \ and\ values\ of\ the\ column[k]\ are\ all\ 1\ (exept\ [k][k].\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ Time\ Complexity\ -\ \ O(n)\ \:\ one\ while\ loop\ that\ depends\ on\ the\ array\ length.\r\n\ Space\ Complexity\ -\ O(1)\ \:\ the\ amount\ of\ memory\ that\ used\ is\ constant\ and\ does\ not\ depends\ on\ the\ data\ that\ it\ is\ processing.\r\n\ \r\n\ @param\ \ \ mat[][]\ -\ 2D\ array\ in\ size\ of\ nXn\ full\ of\ 0\ and\ 1.\r\n\ @return\ \ The\ "sink"\ index.\r\n\ @return\ \ -1\ if\ there\ is\ NO\ "sink".\r\n\ \r\n
+comment2.params=mat\ x
+comment2.target=boolean\ find(int[][],\ int)
+comment2.text=\r\n\ Q2\ -\r\n\ A\ method\ that\ returns\ "true"\ if\ and\ only\ if\ a\ value\ is\ in\ the\ sorted\ matrix.\r\n\ \r\n\ Time\ Complexity\ -\ \ O(log(n))\ \:\ binary\ search\ -\ each\ iteration\ the\ search\ area\ on\ the\ matrix\ is\ minimized\ by\ half.\r\n\ Space\ Complexity\ -\ O(1)\ \:\ the\ amount\ of\ memory\ that\ used\ is\ constant\ and\ does\ not\ depends\ on\ the\ data\ that\ it\ is\ processing.\r\n\ \r\n\ @param\ \ \ mat[][]\ -\ 2D\ sorted\ array\ in\ size\ of\ n^2\ where\ n\=2^k.\r\n\ @param\ \ \ x\ an\ integer\ to\ serach\ \r\n\ @return\ \ True\ if\ x\ was\ found.\ \ False\ if\ x\ was\ NOT\ found.\ \r\n
+comment3.params=s\ n
+comment3.target=boolean\ isSumOf(int[],\ int)
+comment3.text=\r\n\ Q3\ -\ \r\n\ A\ recursive\ methood\ that\ accepts\ set\ of\ natural\ numbers\r\n\ and\ a\ natural\ number\ n,\ and\ returns\ true\ if\ n\ is\ the\ sum\ out\ of\ the\ set.\r\n\ Otherwise,\ the\ method\ will\ return\ false\r\n\ \r\n\ @param\ \ \ s[]\ array\ of\ natural\ numbers\ different\ from\ each\ other.\r\n\ @param\ \ \ n\ \ \ key\ to\ compare\ to.\r\n\ \r\n\ @return\ \ True\ is\ n\ is\ sum\ of\ s[],\r\n\ \ \ \ \ \ \ \ \ \ False\ otherwise.\r\n
+comment4.params=s\ n\ i\ sum
+comment4.target=boolean\ isSumOf(int[],\ int,\ int,\ int)
+comment5.params=mat\ x1\ y1\ x2\ y2
+comment5.target=int\ numPaths(int[][],\ int,\ int,\ int,\ int)
+comment5.text=\r\n\ Q4\ -\ \r\n\ A\ 'path'\ is\ a\ a\ series\ of\ cells\ in\ a\ 2D\ array\:\ \r\n\ \ \ \ \ \ \ A.\ The\ first\ cell\ in\ the\ series\ is\ ([x1][y1])\r\n\ \ \ \ \ \ \ B.\ The\ last\ cell\ in\ the\ series\ is\ ([x2]\ [y2])\r\n\ \ \ \ \ \ \ C.\ The\ passage\ from\ a\ cell\ is\ only\ to\ its\ neighbors\:\r\n\ \ \ \ \ \ \ \ \ \ Above\ him,\ Below\ him,\ to\ his\ right\ and\ to\ his\ left.\r\n\ \ \ \ \ \ \ D.\ Each\ cell\ in\ the\ array\ appears\ at\ most\ a\ single\ time\ in\ the\ route\r\n\ \r\n\ @param\ \ \ mat\ A\ \ \ \ \ \ \ \ \ \ 2D\ Array\ of\ positive\ integers.\r\n\ @param\ \ \ x1,y1,x2,y2\ \ \ \ Array\ cells\ located\ above\ the\ main\ diagonal\ (mat[i][i]).\r\n\ \r\n\ @return\ \ The\ number\ of\ 'paths'\ that\ do\ not\ cross\ the\ main\ diagonal\ (but\ may\ contain\r\n\ \ \ \ \ \ \ \ \ \ cells\ located\ in\ this\ diagonal)\ that\ exist\ between\ the\ two\ cells.\r\n
+comment6.params=mat\ x1\ y1\ x2\ y2\ counter
+comment6.target=int\ numPaths(int[][],\ int,\ int,\ int,\ int,\ int)
+numComments=7
